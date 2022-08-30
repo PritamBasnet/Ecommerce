@@ -1,0 +1,51 @@
+.auth-form
+{
+    width: 100%;
+
+}
+.auth-form > form
+{
+    width: 100%;
+    margin: 60px 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 20px;
+}
+.auth-group
+{
+    padding: 7px 0;
+}
+.auth-label
+{
+    font-size: 13px;
+}
+.auth-input
+{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.auth-btn
+{
+    height: 40px;
+    width: 100%;
+    background-color: var(--color);
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.auth-link
+{
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+}
+.auth-link:nth-child(2)
+{
+    text-align: right;
+}

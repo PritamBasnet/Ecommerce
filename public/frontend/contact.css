@@ -1,0 +1,33 @@
+.imageRow
+{
+    height: 60vh;
+    background-position: fixed;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.imageRow::after
+{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(63, 63, 63,0),rgb(255, 240, 240,0.7));
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.form-wrapper
+{
+    width: 100%;
+}
+.text-contact
+{
+    font-size: 16px;
+    color: rgb(190, 190, 190);
+}

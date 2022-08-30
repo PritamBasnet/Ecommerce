@@ -1,0 +1,35 @@
+.table-hover
+{
+    text-align: center;
+}
+.btn_item
+{
+    height: 45px;
+    width: 140px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-out;
+    border-radius: 5px;
+}
+.btn_item:hover
+{
+    background-color: rgb(104, 6, 196);
+    color: white;
+}
+.dis-box
+{
+    display: none !important;
+}
+.d-active
+{
+    display: block !important;
+}
+.backend_image
+{
+    height: 160px;
+    width: 180px;
+    object-fit: cover;
+}
